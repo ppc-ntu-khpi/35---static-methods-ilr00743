@@ -1,12 +1,19 @@
 package test;
 
+import java.util.Scanner;
 import domain.Exercise;
 
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        System.out.println("Enter the string: ");
+        
+        Scanner scanner = new Scanner(System.in);
+        String inputString = scanner.nextLine();
+        
+        String encriptedString = Cipher(inputString);
+        System.out.println("Encrypted string is: " + encriptedString);
+        
+        System.out.println("Encrypted string is: " + Cipher(encriptedString));
     }
 }
