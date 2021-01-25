@@ -1,6 +1,6 @@
 package domain;
 /**
- * A class that encrypts with XOR cipher
+ * A class that represent an exercise
  * @author Illia_R
  */
 public class Exercise {
@@ -12,7 +12,7 @@ public class Exercise {
      */
     public static String Cipher(String inputString)
     {
-        char key = 'R';
+        char key = 'L';
         
         String outputString = "";
         
