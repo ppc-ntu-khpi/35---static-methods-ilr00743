@@ -54,5 +54,5 @@ public class TestResult {
 }
 ```
 ### Результат роботи програми
-![https://github.com/ppc-ntu-khpi/35---static-methods-ilr00743/blob/master/solution/Screenshot_1.png]
+![https://github.com/ppc-ntu-khpi/35---static-methods-ilr00743/tree/master/solution/Screenshot_1.png]
 
